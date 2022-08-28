@@ -38,3 +38,23 @@
     left: 0;
 }
 
+@media only screen and (max-width:900px) {
+    .community__heading {
+            font-size: 40px;
+            font-weight: 400;
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .community__text {
+            font-size: 20px;
+            margin-top: 15px;
+            text-align: center;
+        }
+    
+        .community__video {
+            margin-top: 30px;
+            position: relative;
+        }
+    
+}

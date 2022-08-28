@@ -212,3 +212,49 @@ a{
         justify-content: center;
     }
 }
+
+@media only screen and (max-width:900px) {
+    .course__info>h2 {
+            font-size: 40px;
+            font-weight: 500;
+            margin-top: 40px;
+            text-align: center
+        }
+          .course__info>p {
+              text-align: center;
+              margin-left: 10px;
+              margin-right: 10px;
+              font-size: 26px;
+              border-radius: 10px;
+              margin-bottom: 40px;
+              margin-top: 40px;
+              color: lightgray;
+          }
+
+        .course1>img {
+            width: 110px;
+            margin-left: 2rem;
+         }
+
+        .course1__btn {
+             padding: 10px 40px;
+             font-size: 15px;
+            border: none;
+             margin-left: 1rem;
+             margin-top: 20px;
+            background-color: #4450e7;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+                .course2>img {
+                    width: 110px;
+                    margin-left: 3rem;
+                }
+
+        .course3>img{
+            width: 110px;
+            margin-left: 2.5rem;
+        }
+}

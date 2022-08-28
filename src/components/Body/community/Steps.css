@@ -116,3 +116,27 @@
     margin-bottom: 30px;
     object-fit: contain;
  }
+
+ @media only screen and (max-width:900px) {
+    .steps1,
+        .steps3,.step2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: #f6f6ff;
+            margin-bottom: 30px;
+        }
+
+        .steps1__heading,
+        .steps3__heading {
+            font-size: 35px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+    
+        .steps1__text,
+        .steps3__text {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+ }
