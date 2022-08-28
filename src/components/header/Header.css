@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+    /* background-color: #2d3a67; */
+    background-color: #130c3e;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.MuiSvgIcon-root {
+    font-size: 50px !important;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.web-menu {
+    display: flex;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1200px) {
+    .mobile-menu {
+        display: flex;
+    }
+
+    .web-menu {
+        display: none;
+    }
+
+    .logo {
+        font-size: 24px;
+        margin-right: 3rem;
+    }
+
+    .menuIcon{
+        color: white !important;
+        cursor: pointer;
+    }
+
+    .menuIcon:hover{
+        color: red !important;
+        transition: 0.3s ease-in !important;
+    }
+}

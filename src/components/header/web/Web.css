@@ -1,0 +1,40 @@
+.web {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;   
+}
+
+.web-option {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.web-option a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    font-weight: 400;
+}
+
+.web-option a:hover{
+    color:red;
+    transition: 0.3s ease-in;
+}
+
+.web-option:last-child {
+    margin-right: 0px;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 400;
+    color: #b9becc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}

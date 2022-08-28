@@ -1,0 +1,37 @@
+.reviewCard {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 500px;
+    min-width: 80px;
+    background-color:rgb(244, 241, 241);
+    z-index: 1;
+    height: 90vh;
+    border-radius: 15px;
+}
+
+.reviewCard >  h2{
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #3ab591;
+}
+
+hr{
+    width: 15%;
+    margin-bottom:25px;
+    background-color: blue;
+    height: 0.7%;
+}
+
+.reviewCard__heading{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.name{
+    color: rgb(108, 108, 214);
+    margin-bottom: 5px;
+}
